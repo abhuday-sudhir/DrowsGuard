@@ -1,12 +1,29 @@
-DrowsGuard : A drowsiness detection system
 
-For downloading the dataset use the link given below :
+# DrowsGuard — A Drowsiness Detection System
 
-https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset
+DrowsGuard is a real-time drowsiness detection system using computer vision techniques.
 
-To run the system :
+---
 
-1. Go to your terminal
-2. Download required dependencies
-3. Download opencv-python
-4. Run the command : python detect_drowsiness.py
+## Dataset
+
+To download the dataset, use the link below:  
+[**Drowsiness Dataset on Kaggle**](https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset)
+
+---
+
+## Installation & Setup
+
+1. Open your terminal and navigate to the project folder.
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3.Install OpenCV separately (if not already installed):
+  ```bash
+  pip install opencv-python
+4.Run the following command in your terminal:
+  ```bash
+  python detect_drowsiness.py
+
+
+
